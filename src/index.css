@@ -62,9 +62,21 @@ ul {
   list-style: none;
 }
 
+.hidden {
+  display: none;
+}
+
+.filter-container {
+  margin-bottom: 10px;
+}
+
+.filter-container > *:not(:last-child) {
+  margin-bottom: 10px; /* Add space between components */
+}
+
 .normalText ul {
   font-family: Georgia, serif;
-  font-size: .75em;
+  font-size: 1em;
   text-align: left;
 }
 
